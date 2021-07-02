@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/registerAsPlayer_menuItem"
+        android:icon="@drawable/football_player_icon"
+        android:title="Player"></item>
+
+    <item
+        android:id="@+id/registerAsFutsal_menuItem"
+        android:icon="@drawable/ground_icon"
+        android:title="Futsal"></item>
+
+</menu>

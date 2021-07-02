@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Khelau Futsal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_place_api">AIzaSyAdAfjzHfut3HDC6oiSirShedbCJ1dXwko</string>
+    <string name="explain_verification">Hello blank fragment</string>
+    <string-array name="userTypes">
+        <item>"Player"</item>
+        <item>"Futsal"</item>
+    </string-array>
+    <string-array name="time">
+        <item>0:00</item>
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+        <item>6:00</item>
+        <item>7:00</item>
+        <item>8:00</item>
+        <item>9:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+        <item>24:00</item>
+    </string-array>
+    <string name="title_activity_futsal__maps">Map</string>
+    <string name="forgotPasswordMessage">An email will be sent out to your email address to change the account password.</string>
+
+</resources>

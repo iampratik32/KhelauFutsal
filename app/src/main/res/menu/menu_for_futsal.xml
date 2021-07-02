@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bookingItem_FutsalDashboard"
+        android:icon="@drawable/calendar_button"
+        android:title="Booking"></item>
+
+    <item
+        android:id="@+id/mainDashboard_FutsalDashboard"
+        android:icon="@drawable/home_button"
+        android:title="Dashboard"></item>
+
+    <item
+        android:id="@+id/chatPage_FutsalDashboard"
+        android:icon="@drawable/group_icon"
+        android:title="Chat"></item>
+
+    <item
+        android:id="@+id/historyPage_FutsalDashboard"
+        android:icon="@drawable/history_button"
+        android:title="History"></item>
+
+
+
+</menu>

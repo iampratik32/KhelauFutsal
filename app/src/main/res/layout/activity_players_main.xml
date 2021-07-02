@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/frosty_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Player.PlayersMainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/playerMainActivityFrameLayout"
+        android:layout_marginBottom="50dp"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/floatingButton_Player"
+        android:scaleType="center"
+        android:layout_margin="20dp"
+        android:backgroundTint="#f3e5f5"
+        android:src="@drawable/settings_button"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#2b5876"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/player_bottomNavigator"
+        app:menu="@menu/menu_for_player"></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+</RelativeLayout>

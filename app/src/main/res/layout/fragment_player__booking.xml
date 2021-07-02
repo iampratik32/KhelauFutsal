@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Player.Player_BookingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:text="Manage Your Bookings"
+            android:textColor="@color/pleasingText"
+            android:textSize="65px"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="35px"
+            android:layout_marginTop="25dp"
+            android:visibility="gone"
+            android:id="@+id/bookingIsEmpty"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Book Some Futsals."></TextView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/recyclerView_playerBooking"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</FrameLayout>

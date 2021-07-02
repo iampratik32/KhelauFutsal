@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Futsal.FutsalEnterDetails_SecondFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="@drawable/ic_arrow_back_white_26dp"
+        android:layout_margin="10dp"
+        android:id="@+id/backButton_futsalSecond"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:id="@+id/scrollView_futsalEnterSecondDetail"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/thirdLinearLayout_registerFutsalSecond"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Enter Manager Name"
+                        android:textSize="60px"
+                        android:textColor="@color/materialBlack"
+                        android:textStyle="bold"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="25dp"></TextView>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="45dp"
+                        android:gravity="center">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:id="@+id/registerFutsal_ownerName"
+                            android:inputType="textCapWords"
+                            android:layout_height="wrap_content"
+                            android:hint="  Manager Name" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="50dp"
+                        android:id="@+id/thirdContinueButton_forFutsal"
+                        android:background="@drawable/peach_button"
+                        android:text="Next"></Button>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/fourthLinearLayout_registerFutsal"
+                    android:layout_marginTop="40dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Enter Contact Details"
+                        android:textColor="@color/materialBlack"
+                        android:textSize="60px"
+                        android:textStyle="bold"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="25dp"></TextView>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="45dp"
+                        android:gravity="center">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:id="@+id/registerFutsal_personalContactNumber"
+                            android:inputType="phone"
+                            android:layout_height="wrap_content"
+                            android:hint="  Personal Phone Number" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="25dp"
+                        android:gravity="center">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:id="@+id/registerFutsal_futsalContactNumber"
+                            android:inputType="phone"
+                            android:layout_height="wrap_content"
+                            android:hint="  Futsal Contact Number" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="50dp"
+                        android:id="@+id/fourthContinueButton_forFutsal"
+                        android:background="@drawable/peach_button"
+                        android:text="Continue"></Button>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/fifthLinearLayout_registerFutsal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Enter Personal Email"
+                        android:textSize="60px"
+                        android:textColor="@color/materialBlack"
+                        android:textStyle="bold"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="25dp"></TextView>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="45dp"
+                        android:gravity="center">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:id="@+id/registerFutsal_emailAddress"
+                            android:inputType="textEmailAddress"
+                            android:layout_height="wrap_content"
+                            android:hint="  Personal Email" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="50dp"
+                        android:id="@+id/fifthContinueButton_forFutsal"
+                        android:background="@drawable/peach_button"
+                        android:text="Continue"></Button>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/sixthLinearLayout_registerFutsal"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="30dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Enter your Password"
+                            android:textSize="60px"
+                            android:textColor="@color/materialBlack"
+                            android:textStyle="bold"
+                            android:layout_marginTop="35dp"
+                            android:layout_marginLeft="25dp"></TextView>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginRight="50dp"
+                            app:passwordToggleEnabled="true"
+                            android:layout_marginTop="30dp"
+                            android:gravity="center">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:id="@+id/registerFutsal_password"
+                                android:inputType="textPassword"
+                                android:layout_height="wrap_content"
+                                android:hint="  Password" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Verify Your Password"
+                            android:textSize="60px"
+                            android:textStyle="bold"
+                            android:textColor="@color/materialBlack"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="25dp"></TextView>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginRight="50dp"
+                            app:passwordToggleEnabled="true"
+                            android:layout_marginTop="30dp"
+                            android:gravity="center">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:id="@+id/registerFutsal_verifyPassword"
+                                android:inputType="textPassword"
+                                android:layout_height="wrap_content"
+                                android:hint="  Verify Password" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <ProgressBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="15dp"
+                            android:id="@+id/progressBar_futsalSecond"
+                            android:visibility="gone"></ProgressBar>
+
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="50dp"
+                            android:id="@+id/sixthContinueButton_forFutsal"
+                            android:background="@drawable/peach_button"
+                            android:text="Next"></Button>
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="45dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp" />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/monthly_FutsalStats"
+        android:icon="@drawable/montly_stats"
+        android:title="Monthly Demography"></item>
+
+    <item
+        android:id="@+id/topPlayers_FutsalStats"
+        android:icon="@drawable/coins"
+        android:title="Monthly Revenue"></item>
+
+</menu>

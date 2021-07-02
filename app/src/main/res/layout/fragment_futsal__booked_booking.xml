@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/frosty_gradient"
+    android:layout_height="match_parent"
+    tools:context=".Futsal.Futsal_BookedBookingFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close_black_26dp"
+        android:id="@+id/closeButton_bookedBooking"
+        android:layout_gravity="right"
+        android:layout_margin="25dp"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:text="Booked Bookings"
+            android:textColor="@color/pleasingText"
+            android:layout_alignParentBottom="true"
+            android:textSize="60px"></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:id="@+id/recyclerView_bookedBookings"></androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#FFFFFF"
+            android:id="@+id/empty_confirmedBooking"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="No Confirmed Booking."></TextView>
+
+
+    </LinearLayout>
+
+</FrameLayout>

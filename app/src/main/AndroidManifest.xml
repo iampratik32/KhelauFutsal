@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.khelaufutsal">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <permission
+        android:name="your.package.name.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="your.package.name.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission
+        android:name="android.permission.MEDIA_CONTENT_CONTROL"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Futsal.Futsal_StatsActivity"></activity>
+        <activity android:name=".Futsal.Futsal_OwnBooking" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <activity
+            android:name=".Futsal.Futsal_MapsActivity"
+            android:label="@string/title_activity_futsal__maps" />
+        <activity android:name=".ForgetPasswordActivity" />
+        <activity android:name=".Player.Player_ManageBookingActivity" />
+        <activity android:name=".Futsal.ChatWithUserActivity" />
+        <activity android:name=".Futsal.Futsal_ConfirmActivity" />
+        <activity android:name=".Futsal.Futsal_BookingActivity" />
+        <activity android:name=".Player.Player_FinalBookingActivity" />
+        <activity android:name=".ChooseMultipleImages" />
+        <activity android:name=".ChooseMediaType" />
+        <activity android:name=".Player.Player_FutsalGroundDetails" />
+        <activity android:name=".Player.Player_SettingsActivity" />
+        <activity android:name=".EnterPasswordActivity" />
+        <activity android:name=".Futsal.Futsal_SettingsActivity" />
+        <activity android:name=".Futsal.FutsalMainActivity" />
+        <activity android:name=".Player.PlayersMainActivity" />
+        <activity android:name=".FirstLoginActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_place_api" />
+    </application>
+
+</manifest>

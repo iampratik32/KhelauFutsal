@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/frosty_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Futsal.Futsal_StatsActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close_black_26dp"
+        android:id="@+id/closeButton_futsalStats"
+        android:layout_alignParentRight="true"
+        android:layout_margin="25dp"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:text="Futsal Stats"
+            android:textColor="@color/pleasingText"
+            android:layout_alignParentBottom="true"
+            android:textSize="60px"></TextView>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#2b5876"
+            android:id="@+id/navigationBar_futsalStats"
+            app:menu="@menu/menu_for_futsal_stats"></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frameLayout_futsalStats">
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

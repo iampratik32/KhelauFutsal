@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ede7f6</color>
+    <color name="colorPrimaryDark">#757575</color>
+    <color name="colorAccent">#1C3645</color>
+    <color name="topBar">#4e4376</color>
+    <color name="pleasingWhite">#d1c4e9</color>
+    <color name="morePleasingWhite">#ede7f6</color>
+    <color name="pleasingText">#9fa8da</color>
+    <color name="materialBlack">#263238</color>
+    <color name="boldBottom">#ffe0b2</color>
+    <color name="loginsBar">#80d0c7</color>
+    <color name="splashBar">#cfd9df</color>
+</resources>

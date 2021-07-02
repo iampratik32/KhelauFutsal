@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        app:cardCornerRadius="5dp"
+        android:id="@+id/cardView_pendingList"
+        android:layout_margin="10dp"
+        android:elevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/another_cardview">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:weightSum="10"
+                android:gravity="center"
+                android:background="#009688"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="4">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="45px"
+                        android:id="@+id/userName_futsalPlayerBookingList"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/materialBlack"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/playerId_pendingList"
+                        android:visibility="gone"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_weight="5">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="45px"
+                        android:layout_marginRight="15dp"
+                        android:id="@+id/userTime_futsalPlayerBookingList"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/materialBlack"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:visibility="gone"
+                        android:textSize="45px"
+                        android:layout_marginRight="15dp"
+                        android:id="@+id/displayPicture_futsalPlayerBookingList"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/materialBlack"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/toHide_pendingList"
+                android:gravity="center|top"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="This user has requested to book your Futsal for"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:textSize="40px"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/materialBlack"></TextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"></View>
+
+                <TextView
+                    android:id="@+id/userDate_futsalPlayerBookingList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/materialBlack"
+                    android:textSize="45px"
+                    android:textStyle="bold"></TextView>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/curved_no_background"
+                    android:text="Deal with it"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/dealWithButton_futsalPlayerBookingList"
+                    android:paddingRight="15dp"
+                    android:layout_gravity="right|bottom"
+                    android:layout_margin="5dp"></Button>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
